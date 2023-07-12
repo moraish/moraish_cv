@@ -1,0 +1,45 @@
+html {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+h2, h3 {
+    color: rgb(106, 94, 94);
+}
+
+
+.info-col {
+    color: white;
+    padding: 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.info-row {
+    background-color: rgb(106, 94, 94);
+    width: 100%;
+}
+
+.material-symbols-outlined {
+    padding-right: 5px;
+}
+
+.email {
+    width: 30%;
+}
+
+.phone {
+    width: 18%;
+}
+
+.location {
+    width: 18%;
+}
+
+.linkedin {
+    width: 30%;
+}
