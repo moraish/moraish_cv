@@ -14,7 +14,7 @@ h2, h3 {
 
 .info-col {
     color: white;
-    padding: 4px;
+    padding: 5px;
     display: inline-flex;
     align-items: center;
 }
@@ -42,4 +42,34 @@ h2, h3 {
 
 .linkedin {
     width: 30%;
+}
+
+.left-section {
+    margin: 5px;
+    width: 40%;
+    display: inline-block;
+    
+    border: 2px solid black;
+    float: left;
+}
+
+.right-section {
+    margin: 5px;
+    width: 40%;
+    display: inline-block;
+    border: 2px solid black;
+    float: right;
+}
+
+.left-date {
+    float: left;
+}
+
+.right-location {
+    float: right;
+    padding-right: 5px;
+}
+
+li {
+    margin: 4px;
 }
