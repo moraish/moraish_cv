@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 html {
     background-color: whitesmoke;
 }
@@ -11,58 +14,45 @@ h2, h3 {
     color: rgb(106, 94, 94);
 }
 
-
-.info-col {
+.info-container {
+    display: inline-flex;
+    background-color: grey;
+    justify-content: space-around;
+    width: 100%;
     color: white;
-    padding: 5px;
+}
+
+.info-item {
     display: inline-flex;
     align-items: center;
 }
 
-.info-row {
-    background-color: rgb(106, 94, 94);
-    width: 100%;
+.info-item > p {
+    margin: 15px;
 }
 
-.material-symbols-outlined {
-    padding-right: 5px;
-}
-
-.email {
-    width: 30%;
-}
-
-.phone {
-    width: 18%;
-}
-
-.location {
-    width: 18%;
-}
-
-.linkedin {
-    width: 30%;
-}
 
 .left-section {
-    margin: 5px;
-    width: 40%;
     display: inline-block;
-    
-    border: 2px solid black;
-    float: left;
+    margin: 5px;
+    margin-right: 0px;
+    width: 48%;
+    border: solid;
+
 }
 
 .right-section {
     margin: 5px;
-    width: 40%;
+    margin-left: 0px;
+    width: 46%;
     display: inline-block;
-    border: 2px solid black;
-    float: right;
+    border: solid;
 }
 
 .left-date {
     float: left;
+    width: 50%;
+    
 }
 
 .right-location {
@@ -73,3 +63,47 @@ h2, h3 {
 li {
     margin: 4px;
 }
+
+
+/*
+EDUCATION
+*/
+#coursework-left {
+    display: inline-block;
+    float: left;
+    width: 42%;
+}
+
+#course-work {
+    margin-bottom: -6px;
+}
+
+/*
+SKILLS
+*/
+
+.skill-buttons {
+    border-radius: 15%;
+    background-color: rgb(207, 192, 192);
+    color: white;
+    font-style: bold;
+
+}
+
+#coursework-right {
+    display: inline-block;
+    float: right;
+    width: 42%;
+}
+
+
+@media (max-width: 480px) {
+    body {
+      background-color: lightsalmon;
+    }
+  }
+
+
+  .container {
+    background-color: aqua;
+  }
